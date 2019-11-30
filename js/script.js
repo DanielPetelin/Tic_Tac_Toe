@@ -19,5 +19,9 @@ document.getElementById('game').onclick = function(evnt) {
         var allblock = document.getElementsByClassName('block');
         if (allblock[0].innerHTML === 'x' && allblock[1].innerHTML === 'x' && allblock[2].innerHTML === 'x') alert('победа крестиков');
         if (allblock[3].innerHTML === 'x' && allblock[4].innerHTML === 'x' && allblock[5].innerHTML === 'x') alert('победа крестиков');
+        if (allblock[8].innerHTML === 'x' && allblock[7].innerHTML === 'x' && allblock[8].innerHTML === 'x') alert('победа крестиков');
+        if (allblock[0].innerHTML === 'x' && allblock[3].innerHTML === 'x' && allblock[6].innerHTML === 'x') alert('победа крестиков');
+        if (allblock[1].innerHTML === 'x' && allblock[4].innerHTML === 'x' && allblock[7].innerHTML === 'x') alert('победа крестиков');
+        if (allblock[2].innerHTML === 'x' && allblock[5].innerHTML === 'x' && allblock[8].innerHTML === 'x') alert('победа крестиков');
     }
 }
