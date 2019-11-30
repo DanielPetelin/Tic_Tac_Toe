@@ -17,4 +17,10 @@
     user-select: none;
     font-family: "Tahoma";
     color: white;
+    transition: all 0.3s ease;
+}
+
+.block:hover {
+    background: #252525;
+    transition: all 0.3s ease;
 }
