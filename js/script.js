@@ -8,7 +8,7 @@ document.getElementById('game').onclick = function(evnt) {
     console.log(event);
     if (event.target.className == 'block') {
         if (hod % 2 == 0) {
-           event.target.innerHTML = 'x'; 
+           event.target.innerHTML = 'X'; 
         } else {
             event.target.innerHTML = '0'; 
         }
