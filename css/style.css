@@ -1,18 +1,18 @@
 #game {
-    width: 150px;
-    height: 150px;
+    width: 600px;
+    height: 600px;
     background: #4d4d4d;
 }
 
 .block {
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     float: left;
-    border: 1px solid white;
+    border: 4px solid white;
     box-sizing: border-box;
-    line-height: 50px;
+    line-height: 200px;
     text-align: center;
-    font-size: 40px;
+    font-size: 160px;
     text-transform: uppercase;
     user-select: none;
     font-family: "Tahoma";
