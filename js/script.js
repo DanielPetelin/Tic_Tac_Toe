@@ -25,5 +25,14 @@ document.getElementById('game').onclick = function(evnt) {
         if (allblock[2].innerHTML === 'x' && allblock[5].innerHTML === 'x' && allblock[8].innerHTML === 'x') alert('победа крестиков');
         if (allblock[0].innerHTML === 'x' && allblock[4].innerHTML === 'x' && allblock[8].innerHTML === 'x') alert('победа крестиков');
         if (allblock[6].innerHTML === 'x' && allblock[4].innerHTML === 'x' && allblock[2].innerHTML === 'x') alert('победа крестиков');
+        //нолики победили
+        if (allblock[0].innerHTML === '0' && allblock[1].innerHTML === '0' && allblock[2].innerHTML === '0') alert('победа крестиков');
+        if (allblock[3].innerHTML === '0' && allblock[4].innerHTML === '0' && allblock[5].innerHTML === '0') alert('победа крестиков');
+        if (allblock[8].innerHTML === '0' && allblock[7].innerHTML === '0' && allblock[8].innerHTML === '0') alert('победа крестиков');
+        if (allblock[0].innerHTML === '0' && allblock[3].innerHTML === '0' && allblock[6].innerHTML === '0') alert('победа крестиков');
+        if (allblock[1].innerHTML === '0' && allblock[4].innerHTML === '0' && allblock[7].innerHTML === '0') alert('победа крестиков');
+        if (allblock[2].innerHTML === '0' && allblock[5].innerHTML === '0' && allblock[8].innerHTML === '0') alert('победа крестиков');
+        if (allblock[0].innerHTML === '0' && allblock[4].innerHTML === '0' && allblock[8].innerHTML === '0') alert('победа крестиков');
+        if (allblock[6].innerHTML === '0' && allblock[4].innerHTML === '0' && allblock[2].innerHTML === '0') alert('победа крестиков');
     }
 }
