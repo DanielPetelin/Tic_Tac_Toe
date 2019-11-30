@@ -7,6 +7,11 @@ var hod = 0;
 document.getElementById('game').onclick = function(evnt) {
     console.log(event);
     if (event.target.className == 'block') {
-        event.target.innerHTML = '0';
+        if (hod % 2 == 0) {
+           event.target.innerHTML = 'x'; 
+        } else {
+            event.target.innerHTML = '0'; 
+        }
+        hod++;
     }
 }
